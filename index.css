@@ -1,0 +1,48 @@
+body{
+   position: relative;
+}
+
+#registration_form{
+    position: absolute;
+    width: 30vw;
+    height: auto;
+    background-color: lightblue;
+    border-radius: 10px;
+    padding-bottom: 4%;
+    margin-top: 10%;
+    left:50%; transform: translateX(-50%);
+    padding-left: 2%;
+    
+}
+
+h2{
+ text-align: center; 
+ font-size: 3vw;
+}
+
+.labels{
+    font-size: 2vw;
+}
+
+.input{
+    border: 0px solid;
+    background: transparent;
+    border-bottom : 2px solid white;
+    color:white;
+    display: block; width:20vw;
+}
+
+input:focus{
+    border:none; background: transparent;
+    outline: none;
+}
+
+.sec{
+    margin-top: 10%;
+}
+
+.sec span{
+    display: block;
+    font-size: 1.5vw;
+    background-color: white; width: 90%; border-radius: 5px; border: 1px solid black; padding-left: 5%;
+}
